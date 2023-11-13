@@ -1,0 +1,10 @@
+automobil
+banana
+racunalo
+tipkovnica
+mis
+mobitel
+kivi
+breskva
+kamion
+avion

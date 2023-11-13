@@ -1,0 +1,34 @@
+PROJEKTNI ZADATAK: IGRA VJEŠALA (HANGMAN)
+1. Kreirajte projekt unutar foldera "HangMan" i u njemu kreirajte praznu datoteku   unutar koje ćete upisivati vaš Python kod
+
+2. Funkcionalnosti koje program treba imati su:
+a) Glavni izbornik s opcijama:
+    i. Ulaz u igru za jednog igrača
+    ii. Ulaz u igru za dva igrača
+    iii. Pregled tablice najboljih igrača i njihovih bodova (Hall of fame)
+    iv. Izlaz iz aplikacije
+b) Upis imena igrača
+c) Učitavanje pojma koji igrač ili igrači moraju pogoditi u toku igre, iz trajne memorije
+d) U toku igre pojam koji igrač mora pogoditi se prikazuje korisniku u obliku: za slova koja
+    igrači nisu pogodili prikazuje se crtica, a sva slova koja su pogođena prikazuju se
+    normalno.
+e) U jednom pokušaju igrač bira želi li predložiti slovo ili pogoditi o kojem se pojmu radi ;
+    Ostvariti prvo odabir što će korisnik napraviti, a onda ostvariti i prijedlog slova ili pojma
+    ; U slučaju igre više igrač4a, isti igrač je na potezu sve dok ne predloži krivo slovo, a
+    onda je na potezu sljedeći igrač
+f) Osim prikaza pojma, ostvariti i prikaz vješala te svih do sada predloženih slova koja se
+    ne nalaze u riječi (neuspjeli pokušaji) 
+g) Pri svakom pogrešnom prijedlogu slova ili pojma, igraču se iscrtava jedan dio tijela
+    osobe na vješalu ; Kad se cijela osoba iscrta na vješalu, igra za tog igrača završava
+h) Ako igrač pogodi pojam, ispisati poruku: „Igrač <ime_igrača> je pobjednik!” (umjesto
+    <ime_igrača> i bez špičastih zagrada ispuisati ime igrača koji je pobjedio); Pri tome
+    pitati želi li igrač, ili žele li igrači igrati ponovno
+i) Ostvariti pohranu najboljih rezultata igre (po broju ukupnih i neuspjelih pokušaja) u
+    obliku tablice, odnosno „Hall of fame” koju ćete trajno pohraniti na računalu
+3. Pri pokretanju skripte cijeli zaslon se treba očistiti od prethodnih ispisa i treba se prikazati
+    samo glavni izbornik, kao i pri paljenju bilo kojeg drugog izbornika i povratkom na glavni
+    izbornik.
+
+
+AUTOR: Ivan Mihaljević, mag. ing
+
